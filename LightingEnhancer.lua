@@ -23,6 +23,8 @@ ColorCorrection.Contrast = 0.1
 ColorCorrection.Brightness = 0
 ColorCorrection.Saturation = 0.1
 
+while true do 
+ wait()
 local Blur = Instance.new("BlurEffect")
 Blur.Parent = game.Lighting
 Blur.Size = 25
@@ -76,3 +78,5 @@ wait(0.1)
 Blur.Size = 1
 wait(0.1)
 Blur.Size = 0
+ wait(70)
+end
